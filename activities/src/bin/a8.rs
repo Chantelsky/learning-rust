@@ -9,31 +9,31 @@
 // * Use a function to print out the drink flavor and ounces
 // * Use a match expression to print the drink flavor
 enum Flavor {
-  Cola,
-  Sprite,
-  Lemonade
+    Cola,
+    Sprite,
+    Lemonade
 }
 
 struct Drink {
-  flavor: Flavor,
-  litres: f64,
+    flavor: Flavor,
+    litres: f64,
 }
 
 fn print_drink(drink:Drink) {
-  match drink.flavor {
-    Flavor::Cola => println!("Cola"),
-    Flavor::Sprite => println!("Sprite"),
-    Flavor::Lemonade => println!("Lemonade")
-  }
+    match drink.flavor {
+        Flavor::Cola => println!("Cola"),
+        Flavor::Sprite => println!("Sprite"),
+        Flavor::Lemonade => println!("Lemonade")
+    }
 
-  println!("litres: {:?}", drink.litres)
+    println!("litres: {:?}", drink.litres)
 }
 
 fn main() {
-  let cola = Drink {
-    flavor: Flavor::Cola,
-    litres: 1.25
-  };
+    let cola = Drink {
+        flavor: Flavor::Cola,
+        litres: 1.25
+    };
 
-  print_drink(cola);
+    print_drink(cola);
 }

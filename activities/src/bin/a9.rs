@@ -10,18 +10,18 @@
 // * Use an if..else if..else block to determine what to print
 
 fn coordinates() -> (i32, i32) {
-  (5, 2)
+    (5, 2)
 }
 
 fn main() {
-  let (x , y) = coordinates();
+    let (x , y) = coordinates();
 
-  if y > 5 {
-    println!("greater than 5!");
-  } else if y == 5 {
-    println!("equal 5!")
-  } else {
-    println!("less than 5 :(");
-  }
+    if y > 5 {
+        println!("greater than 5!");
+    } else if y == 5 {
+        println!("equal 5!")
+    } else {
+        println!("less than 5 :(");
+    }
 
 }

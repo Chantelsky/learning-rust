@@ -10,12 +10,12 @@
 // * Use break to exit the loop
 
 fn main() {
-  let mut n = 1;
-  loop {
-    println!("{:?}", n);
-    if n == 4 {
-      break;
+    let mut n = 1;
+    loop {
+        println!("{:?}", n);
+        if n == 4 {
+        break;
+        }
+        n = n + 1;
     }
-    n = n + 1;
-  }
 }

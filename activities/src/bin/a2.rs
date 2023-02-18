@@ -9,14 +9,14 @@
 // * Use the "{:?}" token in the println macro to display the result
 
 fn add(a: i32, b: i32) -> i32 {
-  a + b
+    a + b
 }
 
 fn display_sum(result: i32) {
-  println!("{:?}", result);
+    println!("{:?}", result);
 }
 
 fn main() {
-  let result = add(2,2);
-  display_sum(result);
+    let result = add(2,2);
+    display_sum(result);
 }

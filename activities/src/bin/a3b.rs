@@ -10,13 +10,13 @@
 // * Use the println macro to display messages to the terminal
 
 fn main() {
-  let n = 5;
+    let n = 5;
 
-  if n == 5 {
-    println!("the variable n is greater than {n}");
-  } else if n < 5 {
-    println!("the variable n is less than {n}");
-  } else {
-    println!("the variable n equals {n}");
-  }
+    if n == 5 {
+        println!("the variable n is greater than {n}");
+    } else if n < 5 {
+        println!("the variable n is less than {n}");
+    } else {
+        println!("the variable n equals {n}");
+    }
 }

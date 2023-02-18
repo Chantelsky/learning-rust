@@ -11,10 +11,10 @@
 // * Do not use break to exit the loop
 
 fn main() {
-  let mut n = 5;
-  while n >= 1 {
-    println!("{:?}", n);
-    n = n - 1;
-  }
-  println!("done!");
+    let mut n = 5;
+    while n >= 1 {
+        println!("{:?}", n);
+        n = n - 1;
+    }
+    println!("done!");
 }

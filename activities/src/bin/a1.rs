@@ -9,13 +9,13 @@
 // * Use the println macro to display messages to the terminal
 
 fn names() {
-  let first_name = "Luke";
-  let last_name = "Skywalker";
+    let first_name = "Luke";
+    let last_name = "Skywalker";
 
-  println!("{first_name} {last_name}");
+    println!("{first_name} {last_name}");
 }
 
 
 fn main() {
-  names();
+    names();
 }

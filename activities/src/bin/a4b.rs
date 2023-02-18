@@ -11,11 +11,11 @@
 // * Use an underscore (_) to match on any value
 
 fn main() {
-  let my_int = 1;
-  match my_int {
-    1 => println!("one"),
-    2 => println!("two"),
-    3 => println!("three"),
-    _ => println!("other")
-  }
+    let my_int = 1;
+    match my_int {
+        1 => println!("one"),
+        2 => println!("two"),
+        3 => println!("three"),
+        _ => println!("other")
+    }
 }
