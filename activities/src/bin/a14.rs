@@ -13,6 +13,10 @@ struct Person {
     color: String,
 }
 
+fn print(data: &str) {
+    println!("{:?}", data);
+}
+
 // * The name and colors should be printed using a function
 fn main() {
     // * Create and store at least 3 people in a vector
@@ -38,7 +42,9 @@ fn main() {
     for person in people {    
     // * Use an if expression to determine which person's info should be printed
         if person.age <= 10 {
-            println!("age: {:?}, name: {:?}, color: {:?}", person.age, person.name, person.color);
+            print(&person.name);
+            print(&person.color);
+            // println!("name: {:?}, color: {:?}",person.name, person.color);
         }
     }
 }
